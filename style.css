@@ -1,0 +1,82 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  border-top: 5px solid #4c4066;
+  margin: 0;
+  padding: 10px 150px;
+  font-size: 14.4px;
+  color: black;
+}
+
+
+.h2-font {
+  font-size: 18px;
+}
+
+.header {
+  font-size: 32px;
+  color: gray;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.TopNav {
+  font-size: 18px;
+  color: purple;
+  text-align: center;
+  
+}
+a:hover {
+  border-bottom: 1px dashed purple;
+  text-decoration: none;  
+}
+.aside {
+  position: fixed;
+  color: purple;
+  font-size: 18px;
+  top: 100px;
+  right: 100px;
+}
+
+.aside__nav {
+  list-style: none;
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 40px;
+  background: pink;
+  border-radius: 10px;
+}
+
+.article, 
+section{
+  width: 75%;
+}
+
+
+section#women-programmers section{
+  width: 250px;
+  display: inline-block;
+}
+
+section img {
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+section img:hover {
+  transform:scale(1.5);
+  transition:all 1s;
+  border-radius: 0%;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  line-height: 1em;
+  font-size: 0.75em;
+  text-align: center;
+  width: 220px;
+}
